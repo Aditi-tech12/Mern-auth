@@ -2,17 +2,20 @@
   "name": "kuch_to_karlo",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "npx nodemon Api/index.js",
-    "start":"node Api/index.js"
+    "start": "node Api/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
     "nodemon": "^3.0.2"
   }
 }
